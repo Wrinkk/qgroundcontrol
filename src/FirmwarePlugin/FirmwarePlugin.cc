@@ -345,6 +345,7 @@ const QVariantList& FirmwarePlugin::modeIndicators(const Vehicle*)
             QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/ROIIndicator.qml")),
             QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/MultiVehicleSelector.qml")),
             QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/LinkIndicator.qml")),
+            QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/new.qml")),
         });
     }
     return _modeIndicatorList;
